@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="uft-8">
+  <title dir="rtl"> الاوركـيـد | حسابي</title>
+  <link rel="stylesheet" href="css/Sty.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body style="background-color:ghostwhite;">
+    
+   
+
+      <!-- JS for Toggle menu -->
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+  
+        MenuItems.style.maxHeight = "0px";
+  
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+    <!--Account Page-->
+
+
+    <div class="account-page">
+        <div class="_login">
+          <div class="row">
+            <div class="col-2_log" >
+              <img src="img/Header.png" />
+            </div>
+            <div class="col-2_log">
+              <div class="form-container">
+                <div class="form-btn">
+                  <span onclick="login()" >تسجيل الدخول</span>
+                  <span onclick="register()">تسجيل جديد</span>
+                  <hr id="indicator">
+                </div>
+                <form action="" id="LoginForm">
+                  <input type="text" placeholder="اسم المسنخدم" />
+                  <input type="password" placeholder="كلمة المرور" />
+  
+                  <button type="submit" class="btn_login">تسجيل الدخول</button>
+                  <a href="" style="font-size: 12px;">نسيت كلمة المرور</a>
+                  <div style="text-align: center;margin-top: 6em;">
+                    <p><a  href=" HomePage.html" class="info_icon" ><u>العودة الى الصفحة الرئيسية </u><i  class="fa fa-home">   </i></a></p>
+                     </div>
+                </form>
+                <form action="" id="RegForm">
+                  <input type="text" placeholder="اسم المستخدم" />
+                  <input type="email" placeholder="الايميل" />
+                  <input type="password" placeholder="كلمة المرور" />
+  
+                  <button type="submit" class="btn_login">تسجيل جديد</button>
+                  <div style="text-align: center;margin-top: 6em;">
+                    <p><a href=" HomePage.html" class="info_icon" ><u>العودة الى الصفحة الرئيسية </u><i  class="fa fa-home">   </i></a></p>
+                     </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+             <!---->
+          
+       
+
+      <!-- JS for Toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+  
+        MenuItems.style.maxHeight = "0px";
+  
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+<!--js for toggle form -->
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var indicator = document.getElementById("indicator");
+
+    function register() {
+      RegForm.style.transform = "translateX(0px)";
+      LoginForm.style.transform = "translateX(0px)";
+      indicator.style.transform = "translateX(100px)";
+    }
+
+    function login() {
+      RegForm.style.transform = "translateX(400px)";
+      LoginForm.style.transform = "translateX(400px)";
+      indicator.style.transform = "translateX(0px)";
+    }
+  </script>
+
+
+ <!--footer-->
+ <div class="footer" id="footer">
+    <div class="container_footer">
+      <div class="row">
+        <div class="footer-col-1">
+          <h4 style="font-size: 14px;">تواصل معنا</h4>
+          <ul>
+            <i class="fa fa-twitter"> </i>
+            <i class="fa fa-instagram"> </i>
+            <a href="mailto:Arched@example.com">
+              <i style="color: aliceblue;" class="fa fa-envelope"> </i>
+            </a>
+            <i class="fa fa-youtube-play"> </i>
+          </ul>
+        </div>
+        <div class="footer-col-2">
+
+        </div>
+        <div class="footer-col-3">
+          <i class="fa fa-copyright" style="font-size: 14px;"> جميع الحقوق محفوظة</i>
+        </div>
+      </div>
+    </div>
+  </div>
+    </body>
+</html>
