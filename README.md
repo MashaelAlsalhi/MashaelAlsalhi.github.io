@@ -2,10 +2,10 @@
 
 
 
-![HomePage](https://github.com/Meshael1998/Orchids-shop-Project/blob/master/img/homePage.jpeg)
+ <img src="https://github.com/MashaelAlsalhi/Online-Flowers-Shop-/blob/master/img/homePage.jpeg" width='800'/>
 
-![About US page](https://github.com/Meshael1998/Orchids-shop-Project/blob/master/img/AboutUS.jpeg)
+ <img src="https://github.com/Meshael1998/Orchids-shop-Project/blob/master/img/AboutUS.jpeg" width='800'/>
 
-![AllProductsPage](https://github.com/Meshael1998/Orchids-shop-Project/blob/master/img/AllProducts.jpeg)
+<img src="https://github.com/Meshael1998/Orchids-shop-Project/blob/master/img/AllProducts.jpeg" width='800'/>
 
 
